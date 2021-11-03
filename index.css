@@ -1,0 +1,169 @@
+/*general*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+/*body{
+    background-color: rgba(51, 46, 46, 0.336);
+}*/
+
+#allpage{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*header*/
+
+.title{
+    min-width: 250px;
+    flex: 2;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 25px;
+    color: rgb(236, 101, 11);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+    
+}
+
+  /* body image */ 
+#coverpage{
+    flex: 2;
+    height: auto;
+    width: 50%;
+    display: block;
+    margin: auto;
+    padding: 60px;
+    border-radius: 70px;
+
+   
+}
+
+/*phrases*/
+
+.phrases{
+    font-size: 15pt;
+    margin: 15px;
+    font-style: italic;
+    color: rgb(236, 101, 11);
+  
+    
+}
+
+.one{
+    padding: 40px;
+}
+
+
+  
+/*footer*/
+
+#link{
+    text-align: right;
+    margin-top: 100px;
+    margin-right: 0px;
+    padding-right: 50px;
+    
+    
+ 
+}
+
+a{
+    color: rgb(236, 101, 11);
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+/*media querys*/
+
+@media (max-width:820px){
+    .title{
+    
+        font-size: 10pt;         
+    }
+
+    .phrases{
+        font-size: 12pt;
+        margin: 10px;  
+    }
+    .one{
+        padding: 20px;
+    }
+
+    #link{
+        
+        margin-right: 10px; 
+    }
+}
+
+@media (max-width: 1024px){
+    .phrases{
+        font-size: 12pt;
+        padding: 10px;
+          
+    }
+    .title{
+    
+        font-size: 10pt;         
+    }
+}
+@media (max-width: 1366px){
+    .phrases{
+        font-size: 15pt;
+        padding: 10px;
+          
+    }
+    .title{
+    
+        font-size: 18pt;
+         padding-top: 10px;
+         margin-top: 10px;
+             
+    }
+}
+@media (max-width: 653px){
+    .phrases{
+        font-size: 8pt;
+        padding: 10px;
+          
+    }
+    .title{
+    
+        font-size: 10pt;         
+    }
+}
+
+
+
+@media (max-width: 731px){
+    .phrases{
+        font-size: 15pt;
+        padding: 10px;
+          
+    }
+    .title{
+    
+        font-size: 16pt;         
+    }
+}
+
+@media (max-width: 568px){
+    .phrases{
+        font-size: 12pt;
+        padding: 5px;
+          
+    }
+    .title{
+    
+        font-size: 13pt;   
+        padding: 5px;      
+    }
+}
